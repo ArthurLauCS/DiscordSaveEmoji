@@ -15,7 +15,7 @@
 - English, Traditional Chinese and Simplified Chinese switch in the native window. Saved language persists across restart.
 - Open env configuration opens the built-in text editor; saving preserves the env template. Chinese editor font corrected after visual inspection.
 - Existing local Token and target binding migrated to the user data directory; the desktop service connects to Discord using its bundled runtime.
-- Help opens a local HTML page in the default browser. Desktop and Discord menu screenshots load correctly; public screenshots exclude account names, server lists and identifiers through cropping.
+- Help opens a local HTML page in the default browser. The desktop screenshot and labeled workflow illustration load correctly. A post-release visual review found that both original Discord crops included the server sidebar; they have been replaced by one generic illustration with no account or server information. Final published image files were visually reviewed; byte scanning alone cannot detect private information inside images.
 - Stop service removes the bot process. Terminating the desktop also ends the child through stdin closure; no orphan service remains.
 - `--background` hides the initial window; launching again opens the existing instance. One desktop process and one service process remain.
 - Saving startup writes a quoted executable path plus `--background` under the current user's Windows Run key. No administrator privileges required.

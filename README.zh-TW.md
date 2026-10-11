@@ -34,7 +34,7 @@ OWNER_ID=
 
 右鍵含自訂表情的訊息 → Apps（應用程式）→ 儲存表情 / Save Emoji。多個表情時勾選所需項目，按選單外提交；單一表情直接儲存。成功後在目標伺服器的表情面板使用。選單最多 25 個，重複操作會再次佔用欄位；不支援貼圖及一般 Unicode 表情。
 
-![Discord Apps menu — cropped to exclude personal information](docs/discord-menu.png)
+![儲存表情操作示意圖（非 Discord 實際截圖，不含個人或伺服器資訊）](docs/discord-menu.png)
 
 ## 限制與疑難排解
 
