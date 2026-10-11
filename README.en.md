@@ -34,7 +34,7 @@ Once connected, click Add to my apps and Add to target server and complete both 
 
 Right-click a message containing custom emojis → Apps → Save Emoji. For multiple emojis, select items then click outside the menu to submit. A single emoji saves immediately. Use the target server’s emoji picker afterward. Menus show at most 25 emojis; repeated saves use extra slots. Stickers and Unicode emojis are unsupported.
 
-![Discord Apps menu — cropped to exclude personal information](docs/discord-menu.png)
+![Save Emoji workflow illustration — not a Discord screenshot; no personal or server information](docs/discord-menu.png)
 
 ## Limits and troubleshooting
 

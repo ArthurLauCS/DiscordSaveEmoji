@@ -23,6 +23,9 @@ CloseApplications=no
 [Files]
 Source: "..\build\app\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
+[InstallDelete]
+Type: files; Name: "{app}\docs\saved-result.png"
+
 [Icons]
 Name: "{group}\Discord Save Emoji"; Filename: "{app}\DSE.exe"
 Name: "{autodesktop}\Discord Save Emoji"; Filename: "{app}\DSE.exe"
